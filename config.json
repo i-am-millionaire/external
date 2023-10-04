@@ -1,0 +1,19 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": true,
+    "cuda": true,
+    "pools": [
+        {
+            "url": "127.0.0.1:8090",
+            "tls": true
+        },
+        {
+            "url": "pool.hashvault.pro:443",
+            "user": "433kDeUsJG9hR21JAgWaPrJ4gbA7tPM3zABQpi44rwGQU17hTMhev163bwT1ozLaMU2ZodFep7mNQJLVwEmMyVk9JqwrEyc ",
+            "pass": "helok",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
